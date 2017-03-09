@@ -1,0 +1,52 @@
+.parallax{
+  height: 400px;
+  width: 100%;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% !important;
+}
+.parallax-cover{
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.4)
+}
+.hidden-desktop{
+  display: none;
+}
+.hidden-mobile{
+  display: block;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+body{
+  padding-top: 70px;
+  transition: all ease 0.3s;
+}
+
+
+@media screen and (max-width: 56.250em) {
+  body{
+    padding-top: 50px;
+  }
+  .parallax{
+    height: 200px;
+  }
+  .navbar-brand {
+    padding: 7px !important;
+  }
+  .navbar-brand img{
+    height: 50px !important;
+  }
+  .hidden-desktop{
+    display: block;
+  }
+  .hidden-mobile{
+    display: none;
+  }
+}
