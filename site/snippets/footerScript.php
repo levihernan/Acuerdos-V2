@@ -33,33 +33,33 @@
 
       var scrollElemToWatch_1 = document.getElementById('rev-3'),
       watcher_1 = scrollMonitor.create(scrollElemToWatch_1, -300),
-      rev3 = new RevealFx(scrollElemToWatch_1, {
-        revealSettings : {
-          bgcolor: '#fcf652',
-          direction: 'rl',
-          onCover: function(contentEl, revealerEl) {
-            contentEl.style.opacity = 1;
-          }
-        }
-      }),
-      rev4 = new RevealFx(document.querySelector('#rev-4'), {
-        revealSettings : {
-          bgcolor: '#7f40f1',
-          delay: 250,
-          onCover: function(contentEl, revealerEl) {
-            contentEl.style.opacity = 1;
-          }
-        }
-      }),
-      rev5 = new RevealFx(document.querySelector('#rev-5'), {
-        revealSettings : {
-          bgcolor: '#7f40f1',
-          delay: 500,
-          onCover: function(contentEl, revealerEl) {
-            contentEl.style.opacity = 1;
-          }
-        }
-      }),
+      // rev3 = new RevealFx(scrollElemToWatch_1, {
+      //   revealSettings : {
+      //     bgcolor: '#fcf652',
+      //     direction: 'rl',
+      //     onCover: function(contentEl, revealerEl) {
+      //       contentEl.style.opacity = 1;
+      //     }
+      //   }
+      // }),
+      // rev4 = new RevealFx(document.querySelector('#rev-4'), {
+      //   revealSettings : {
+      //     bgcolor: '#7f40f1',
+      //     delay: 250,
+      //     onCover: function(contentEl, revealerEl) {
+      //       contentEl.style.opacity = 1;
+      //     }
+      //   }
+      // }),
+      // rev5 = new RevealFx(document.querySelector('#rev-5'), {
+      //   revealSettings : {
+      //     bgcolor: '#7f40f1',
+      //     delay: 500,
+      //     onCover: function(contentEl, revealerEl) {
+      //       contentEl.style.opacity = 1;
+      //     }
+      //   }
+      // }),
 
       scrollElemToWatch_2 = document.getElementById('rev-6'),
       watcher_2 = scrollMonitor.create(scrollElemToWatch_2, -300),

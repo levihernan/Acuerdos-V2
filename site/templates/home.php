@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <section class="content content--full flexy flexy--row">
+    <!-- <section class="content content--full flexy flexy--row">
       <h2 class="content__title content__title--medium content__title--half content__title--right">
         <div id="rev-4" class="content__title__inner">lorem ipsum</div><br/>
         <div id="rev-5" class="content__title__inner">dolor sit amet</div>
@@ -27,7 +27,7 @@
       <div id="rev-3" class="content__image-wrap content__image-wrap--half">
         <img class="content__image" src="http://www.placehold.it/500x500" alt="Some image"/>
       </div>
-    </section>
+    </section> -->
 
     <section class="content content--full flexy flexy--row">
       <div id="rev-6" class="content__image-wrap content__image-wrap--half">
